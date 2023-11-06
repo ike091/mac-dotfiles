@@ -1,0 +1,35 @@
+{
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Ayu Mirage",
+  "redhat.telemetry.enabled": false,
+  "vim.useSystemClipboard": true,
+  "vim.ignorecase": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "[java]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "svelte.enable-ts-plugin": true,
+  "python.analysis.extraPaths": [
+    "/Users/isaak/.vscode/extensions/continue.continue-0.0.413-darwin-arm64",
+    "/Users/isaak/.vscode/extensions/continue.continue-0.1.40-darwin-arm64",
+    "/Users/isaak/.vscode/extensions/continue.continue-0.2.0-darwin-arm64"
+  ],
+  "python.autoComplete.extraPaths": [
+    "/Users/isaak/.vscode/extensions/continue.continue-0.0.413-darwin-arm64",
+    "/Users/isaak/.vscode/extensions/continue.continue-0.1.40-darwin-arm64",
+    "/Users/isaak/.vscode/extensions/continue.continue-0.2.0-darwin-arm64"
+  ],
+  "diffEditor.codeLens": true,
+  "mypy.runUsingActiveInterpreter": true,
+  "editor.inlayHints.enabled": "offUnlessPressed"
+}
